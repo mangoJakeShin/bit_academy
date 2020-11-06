@@ -1,0 +1,137 @@
+def sub(a,b,c):
+    c = a-b
+
+def add(a,b,c):
+    c = a+b
+
+a = 3
+b = 4
+c = 0
+list = [sub(), add()]
+
+
+
+
+
+
+
+
+#
+# class Exex:
+#     red = 0
+#     blue = 0
+#     yellow = 0
+#
+#
+#
+# ex = Exex()
+#
+#
+# ex.red = 10
+# i = input()
+# a = int(input())
+# ex.i = a
+#
+# print(ex.red)
+#
+
+
+
+
+
+#
+#
+#
+#
+#
+# led_states = {
+#     'red':1,
+#     'green':0,
+#     'yellow':0
+# }
+#
+# for i in led_states:
+#     if (i == 'red'):
+#         pass
+#     print(led_states[i])
+#
+
+
+
+# def three_dig(list, a): #초기 버전. 3자리만 가능하게 만들어 놓음
+#     hun_dig = a // 100
+#     ten_dig = (a // 10) % 10
+#     last_dig = a % 10
+#     list.append(hun_dig)
+#     list.append(ten_dig)
+#     list.append(last_dig)
+#
+# def help(tries):
+#     # global ball
+#     # global strike
+#     helping = ()
+#     global helphelp
+#     i = 0
+#
+#     for t in tries:
+#         helping = (i,t)
+#         i += 1
+#         print(helping)
+#         helphelp.append(helping)
+#
+#
+# helphelp = []
+# tries = []
+# a = int(input("?"))
+# three_dig(tries,a)
+# help(tries)
+# num = 0
+#
+# if helphelp[0][0] == 0:
+#     for j in range(0,10):
+#         for k in range(0,10):
+#             if ((helphelp[0][1] != j) and (helphelp[0][1] != k) and (j != k)):
+#                 if ((j not in tries) and (k not in tries)):
+#                     num = ((helphelp[0][1])*100) + (j*10)+k
+#                     print('%03d' % num, end=' ')
+#         print()
+# print('================')
+# if helphelp[1][0] == 1:
+#     for j in range(0,10):
+#         for k in range(0,10):
+#             if ((helphelp[1][1] != j) and (helphelp[1][1] != k) and (j != k)):
+#                 if ((j not in tries) and (k not in tries)):
+#                     num = (j*100) + (helphelp[1][1]*10) + k
+#                     print('%03d' % num, end=' ')
+#         print()
+# print('================')
+# if helphelp[2][0] == 2:
+#     for j in range(0,10):
+#         for k in range(0,10):
+#             if ((helphelp[2][1] != j) and (helphelp[2][1] != k) and (j != k)):
+#                 if ((j not in tries) and (k not in tries)):
+#                     num = (j*100) + (k*10) + helphelp[2][1]
+#                     print('%03d'%num,end=' ')
+#         print()
+#
+#
+# #
+# # for i in range(0,3):
+# #     for j in range(0,10):
+# #         for k in range(0,10):
+# #             if((helphelp[i][1] != j) and (helphelp[i][1] != k) and (j != k)):
+# #                 if((j not in tries) and (k not in tries)):
+# #                 if((j not in tries) and (k not in tries)):
+# #                     num = (helphelp[i][1] * 100) + (j * 10) + k
+# #                     print('%03d' %num, end='\t')
+# #                     skipper.append(num)
+# #                     num = (j * 100) + (helphelp[i][1]  * 10) + k
+# #                     print('%03d' %num, end='\t')
+# #                     skipper.append(num)
+# #                     num = (j * 100) + (k * 10) + helphelp[i][1]
+# #                     print('%03d' %num, end='\t')
+# #                     skipper.append(num)
+# #
+# #         print(" ")
+# #     print("\n---------------")
+# # print(len(skipper))

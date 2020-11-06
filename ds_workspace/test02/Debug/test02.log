@@ -1,0 +1,5 @@
+﻿  d02.c
+C:\Users\bit\Desktop\신정규\DS\DS\test02\d02.c(292,18): warning C4013: 'strcmp'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\bit\Desktop\신정규\DS\DS\test02\d02.c(312,18): warning C4048: 배열 첨자가 다릅니다. 'char (*)[10]'과(와) 'char [12][7]'
+C:\Users\bit\Desktop\신정규\DS\DS\test02\d02.c(332,21): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+  test02.vcxproj -> C:\Users\bit\Desktop\신정규\DS\DS\Debug\day02.exe

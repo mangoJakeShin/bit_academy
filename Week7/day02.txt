@@ -1,0 +1,85 @@
+Samba
+
+Linux 와 Windows는 다른 OS : 고로 파일 저장 시스템도 다름
+Linux 는 ext4 / ext3 를 사용, windows는 FAT32, NTFS
+이때 생기는 문제가 두 os간 파일 공유를 할 때 문제가 생김
+
+linux 계층(아래부터): H/W Hdd | Device Driver | Kernel(|Virtual file system) | App
+Linux는 virtual file system을 통해 모든 장치, 파일 소켓 등등 모든 것을 파일로 다룸
+
+그래서 Linux는 samba를 통해 VFS가 없는 윈도우 등의 운영체제에서도 파일 공유가 가능하게 만들었음.
+
+vmware player - manage - network adapter 에서 NAT -> Bridged 로 바꿈 - configure adapters 에서 Virtualbox Host-only ethernet Adapter 체크 해제
+
+install samba samba-common-bin
+
+(base) mango@ubuntu:~$ sudo smbpasswd -a mango  : samba 공유폴더에 mango 계정을 추가함
+후에 비밀번호 설정 가능
+
+etc/samba/smb.conf : 맨 아래에 계정별 설정 입력 가능
+
+[mango]
+path=/home/park
+comment=Ubuntu SAMBA SERVER
+valid user = mango
+writable = yes
+browseable =yes
+create mask = 0777
+public = yes
+guest ok = no
+
+sudo etc/init.d/smbd restart
+***init.d : 데몬 = 사용자가 실행시키는 프로그램이 아닌 컴퓨터 부팅과 함께 시작되고 시스템 종료시에 꺼지는 프로그램 모음
+
+후에 \\우분투ip 입력시 로그인 가능
+
+-----------------------
+github desktop 설치
+
+gitignore -> git에 올리지 않을 파일 설정할 수 있음
+
+clone repository 에서 local path 설정 시 \\ip주소 를 통해 리눅스에 접근 가능
+리눅스 local에 폴더, 파일 생성시 아무 문제 없이 생성됨
+++ git desktop에서 자동적으로 add 기능을 수행해줌
+
+commit description 채우고 push 하면 완성
+
+history에서 revert this commit 을 하면 이전 버전으로 돌릴 수 있음
+++revert commit을 다시 revert 하면 revert 이전 버전으로 돌아감
+( B(newer version) -> A(older version(reverted B)) -> B(newer version(reverted of reverted B)))
+
+--------------------------
+Flask
+Django 보다 덩치가 작은 Web Framework
+
+Flask 환경 생성
+conda install Flask
+
+**conda list 를 할 경우 현재 가상환경에 깔린 패키지 확인 가능
+-------------------------------------------------------
+**Flask repository app.py 파일 확인**
+
+~/anaconda3/envs/flask/bin/python 으로 interpreter 경로 설정
+(terminal) set FLASK_APP = app #flask app 이름을 app으로 설정
+(terminal) flask run
+running on 127.0.0.1:5000/  #local address 줌
+*** 브라우저가 클라이언트 ****
+
+http 특성은 한 번 연결 요청을 한 후 끊음
+
+----------------------------------------------------------
+파이썬 DB framework
+
+https://sqlitestudio.pl/ - sqlite 설치
+https://baseballdb.lawlesst.net/chadwick 연습용 db 다운로드
+
+
+
+
+
+
+
+
+
+
+

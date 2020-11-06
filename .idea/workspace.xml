@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4a8326d-2119-47f5-ad2c-e75f8a64db5f" name="Default Changelist" comment="RGB">
+      <change beforePath="$PROJECT_DIR$/minis/RGB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/minis/RGB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minis/RGB/app2.py" beforeDir="false" afterPath="$PROJECT_DIR$/minis/RGB/app2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minis/RGB/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/minis/RGB/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minis/RGB/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/minis/RGB/templates/register.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/minis/RGB" />
+  </component>
+  <component name="ProjectId" id="1j81d1ZUVatebNi2tXejNLHg7BJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/minis/baseball" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bit\bit_academy\minis\baseball" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bit\bit_academy\minis" />
+      <recent name="C:\Users\bit\bit_academy\minis\RGB" />
+      <recent name="C:\Users\bit\bit_academy\Week7" />
+      <recent name="C:\Users\bit\bit_academy\minis\baek" />
+      <recent name="C:\Users\bit\bit_academy\Week7\day02" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.ex">
+    <configuration name="app2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bit_academy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/minis/RGB" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minis/RGB/app2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="baseball_ver3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bit_academy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/minis/baseball" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minis/baseball/baseball_ver3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bit_academy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_workspace/code/ex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_workspace/code/ex/ex" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="printer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bit_academy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/minis/baek" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minis/baek/printer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="printer2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bit_academy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/minis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minis/printer2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ex" />
+        <item itemvalue="Python.app2" />
+        <item itemvalue="Python.baseball_ver3" />
+        <item itemvalue="Python.printer2" />
+        <item itemvalue="Python.printer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4a8326d-2119-47f5-ad2c-e75f8a64db5f" name="Default Changelist" comment="" />
+      <created>1603170989089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603170989089</updated>
+    </task>
+    <task id="LOCAL-00001" summary="python version baseball">
+      <created>1603356181350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603356181350</updated>
+    </task>
+    <task id="LOCAL-00002" summary="python version baseball">
+      <created>1603956915341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603956915341</updated>
+    </task>
+    <task id="LOCAL-00003" summary="RGB">
+      <created>1604649746380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604649746380</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="python version baseball" />
+    <MESSAGE value="RGB" />
+    <option name="LAST_COMMIT_MESSAGE" value="RGB" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="695" y="343" key="#Notifications" timestamp="1604565633462">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="695" y="343" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1604565633462" />
+    <state x="692" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603772037539">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="692" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603772037539" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604652028735">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604652028735" />
+    <state width="1899" height="253" key="GridCell.Tab.-1.bottom" timestamp="1603420600085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.-1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603420600085" />
+    <state width="1899" height="253" key="GridCell.Tab.-1.center" timestamp="1603420600085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.-1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603420600085" />
+    <state width="1899" height="253" key="GridCell.Tab.-1.left" timestamp="1603420600085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.-1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603420600085" />
+    <state width="1899" height="253" key="GridCell.Tab.-1.right" timestamp="1603420600085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.-1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603420600085" />
+    <state width="1899" height="229" key="GridCell.Tab.0.bottom" timestamp="1604479870243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604479870243" />
+    <state width="1899" height="229" key="GridCell.Tab.0.center" timestamp="1604479870243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="229" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604479870243" />
+    <state width="1899" height="229" key="GridCell.Tab.0.left" timestamp="1604479870243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="229" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604479870243" />
+    <state width="1899" height="229" key="GridCell.Tab.0.right" timestamp="1604479870243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="229" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604479870243" />
+    <state width="1899" height="253" key="GridCell.Tab.1.bottom" timestamp="1603772950761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603772950761" />
+    <state width="1899" height="253" key="GridCell.Tab.1.center" timestamp="1603772950761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603772950761" />
+    <state width="1899" height="253" key="GridCell.Tab.1.left" timestamp="1603772950760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603772950760" />
+    <state width="1899" height="253" key="GridCell.Tab.1.right" timestamp="1603772950761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603772950761" />
+    <state x="775" y="221" key="RollbackChangesDialog" timestamp="1604381893646">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="775" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604381893646" />
+    <state x="922" y="164" key="SettingsEditor" timestamp="1604030399685">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="922" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604030399685" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604649914126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604649914126" />
+    <state x="521" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603420466921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="521" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1603420466921" />
+    <state x="64" y="160" width="1705" height="746" key="dock-window-1" timestamp="1603420736344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="64" y="160" width="1705" height="746" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1603420736344" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604467917971">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604467917971" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="python-exception">
+          <dependency master-id="0" />
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="strike" />
+        <watch expression="ball" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

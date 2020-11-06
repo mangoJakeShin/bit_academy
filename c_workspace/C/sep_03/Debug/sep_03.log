@@ -1,0 +1,7 @@
+﻿  main.c
+C:\Users\bit\Desktop\신정규\C\sep_03\main.c(6,6): warning C4101: 'withdraw' :참조되지 않은 지역 변수입니다.
+  left.c
+  one.c
+  right.c
+  코드를 생성하고 있습니다...
+  sep_03.vcxproj -> C:\Users\bit\Desktop\신정규\C\day03\Debug\sep_03.exe

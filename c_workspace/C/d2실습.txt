@@ -1,0 +1,24 @@
+void main(void)
+{  
+   char sub_name[15]; /* 과목 이름 */
+   float exm_rlt[10]; /* 시험 점수 */
+   int exm_cnt = 0; /* 시험 회수 */
+   float total; /* 총점 */
+   float average; /* 평균 */
+   char grade; /* 학점 */
+
+   get_sub_name(sub_name); /* 과목 이름 */
+
+   exm_cnt = get_exm_cnt(); /* 시험 회수 */
+
+   get_exm_rlt(exm_rlt, exm_cnt);/* 시험 점수*/
+
+   total = get_total(exm_rlt, exm_cnt); /* 총점 계산 */
+
+   average = get_average(total, exm_cnt); /* 평균 계산 */
+   grade = get_grade(average); /* 학점을 계산합니다. */
+   print_result(sub_name, exm_cnt, exm_rlt,
+    total, average, grade); /* 모든 결과 */
+}
+
+ 

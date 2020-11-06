@@ -1,0 +1,4 @@
+﻿  d05.c
+C:\Users\bit\Desktop\신정규\C\day05\d05.c(222,16): warning C4101: 'z' :참조되지 않은 지역 변수입니다.
+C:\Users\bit\Desktop\신정규\C\day05\d05.c(222,13): warning C4101: 'y' :참조되지 않은 지역 변수입니다.
+  day05.vcxproj -> C:\Users\bit\Desktop\신정규\C\day03\Debug\day05.exe

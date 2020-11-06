@@ -1,0 +1,72 @@
+day03
+
+Flask on SBC(single board computer)
+
+가장 큰 방열판 - CPU
+두번째 - 메모리
+3번째 - usb3.0 + 네트워크
+2.0 끝쪽 2 - vcn / 안쪽 2 - 데이터 : 총합 4핀
+3.0 - 9핀
+
+--------------------------------------------
+라즈베리 파이 port forwarding
+
+
+ngrok 다운로드 및 설정
+
+*http 설정
+
+-------------------------------------
+라파 가상환경 설치
+
+아나콘다는 x86만 지원
+라파는 arm, 그래서 virtualenv 환경 설치
+
+pip3 install virtualenv
+
+**현재 디렉토리가 루트(~)일 때
+가상환경 생성
+python3 -m virtualenv flaskEX
+
+활성화
+source ~/flaskEx/bin/activate
+pip3 install flask falsk-sqlalchemy
+
+
+$python3 app.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

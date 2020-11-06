@@ -1,0 +1,9 @@
+﻿  insert_list.c
+C:\Users\bit\Desktop\신정규\DS\DS\test01\insert_list.c(23,18): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\bit\Desktop\신정규\DS\DS\test01\insert_list.c(45,19): warning C4047: '=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\bit\Desktop\신정규\DS\DS\test01\insert_list.c(64,23): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+C:\Users\bit\Desktop\신정규\DS\DS\test01\insert_list.c(64,34): warning C4029: 선언된 정식 매개 변수 목록이 정의와 다릅니다.
+C:\Users\bit\Desktop\신정규\DS\DS\test01\insert_list.c(66,19): warning C4047: '=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\bit\Desktop\신정규\DS\DS\test01\insert_list.c(113,23): warning C4047: '==': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\bit\Desktop\신정규\DS\DS\test01\insert_list.c(135): warning C4716: 'comparelist': 값을 반환해야 합니다.
+  testtest.vcxproj -> C:\Users\bit\Desktop\신정규\DS\DS\Debug\testtest.exe

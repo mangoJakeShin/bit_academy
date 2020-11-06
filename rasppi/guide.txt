@@ -1,0 +1,54 @@
+pre-boot
+    1. Win32DiskImager
+    2. raspberry pi 설치
+    3. sd카드에 imager 이용해서 설치.
+
+--------------
+
+한글 설치 
+
+raspberry configuration - local - utf-8 확인
+
+sudo apt install -y fonts-unfonts-core
+
+sudo apt install fcitx
+sudo apt install fcitx-hangul
+sudo apt install fonts-nanum fonts-nanum-extra
+sudo reboot
+
+
+--------------
+apache2 
+
+install + start -> 연결이 된다면 따로 설정 불필요
+만약 
+------------
+sudo raspi-config ->
+interface option 
+ssh enable
+vnc enable
+
+(PC)
+realvnc viewer download
+
+id 생성 - 기기 추가 
+기기에서 vnc id 접속 
+
+
+
+------------------------
+라즈베리 파이에서 GPIO 활용 시
+GPIO 번호를 잘 확인해야 한다.(*핀 번호와 GPIO번호는 같지 않다*)
+
+전구는 긴 쪽이 +, 짧은 쪽이 -
+-는 ground 핀, +는 GPIO핀
+전원을 넣을 + 핀에 GPIO 배정
+저항기는 +극에 꽂든 -극에 꽂든 상관 없음
+
+
+
+
+
+
+
+

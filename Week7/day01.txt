@@ -1,0 +1,86 @@
+1. ubuntu reinstall - 용량 200gb 로 올려서
+2. colab 공유 = https://drive.google.com/drive/folders/1Sf4kn8z3jUmPiWCo0p9cmpFAmthNa0pc
+
+3. anaconda 설치
+anaconda? 가상 환경 설치
+why 가상 환경?
+예를 들면 파이썬 3.6 버전으로 만든 프로젝트를 끝내고
+3.7용 패키지를 이용한 패캐지를 쓰는 프로젝트를 할 때,
+가상환경이 없다면 매번 새로 밀고 설치해야 함.
+그러나 가상환경을 설치했다면 그 안에서 구축하고 다른 버전에 영향을 받지 않고 할 수 있음.
+
+4. 가상환경 생성
+1) ~/.bashrc 맨 아래쪽에 conda_ 관련이 없다면 터미널 재시작
+
+conda env list 확인 : 가상환경 리스트 확인
+conda create -n python1 python=3.6 #새로운 환경 이름 : python1, python version 3.6
+-------------------------------
+To activate this environment, use
+#
+#     $ conda activate python1
+------------------------------------- -> 실행 시
+(base) mango@ubuntu:~$
+(python1) mango@ubuntu:~$ 이렇게 앞쪽이 base에서 python1 환경으로 바뀜
+===============================================
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+=====================================> 실행 시
+(python1) mango@ubuntu:~$ conda deactivate
+(base) mango@ubuntu:~$
+이렇게 다시 base 환경으로 돌아감
+
+~/anacondas3/envs/ 하위에 python1 디렉토리가 생성됨
+---------------------------------------
+패키지 설치 시 pip 보다는 conda 환경이 낫다(관리적인 측면
+conda에서 설치가 가능하다면 conda에서 먼저 시도해보고 안 될 시 pip 로 이동
+
+conda install pandas
+#conda install pandas==?.? : version 지정하여 설치 가능
+
+**conda install ~ 을 할 경우 자동적으로 conda 하위에 설치가 됨.
+그러나 주의할 것은 어떤 환경에서 하는지 확인하는 것
+
+conda install jupyter
+
+jupyter notebook : 주피터 실행
+주피터 실행 시 현재 디렉토리 하위에 파일들이 생성됨
+------------------------------------------
+소스코드를 보관하는 곳은 다르게 할 수 있으나 같은 장소에 생성가능
+pycharm 압축해제 후 설치
+디렉토리 downloads/pycharm~~~/bin 이동
+
+bin/pycharm.sh  : 파이참 실행
+
+existing interpreter ... 눌러서 conda environment 확인 - 아까 만든 가상 머신과 이름이 같다면 성공적
+
+실행 후 터미널 확인 시
+(python1) mango@ubuntu:~/PycharmProjects/flask$ 이렇게 나옴
+
+
+
+-------------------------------------
+AWS 회원가입
+AWS management console - EC2
+
+Ubuntu Server 18.04 LTS (HVM), SSD Volume Type -> t2 micro(pre tier 사용 가능 버전) ->
+단계3은 건드리지 않고 넘어감 -> 크기 30gb 변경 -> 태그 추가 건너뜀
+-> port setting : pdf 참고
+
+인스턴스 개수 : 서버의 개수
+
+**putty 사용 시 탄력적 ip 할당 받으면 host 이름에 탄력적 ip 입력 시 접속 가능
+
+*****시간단위 과금이 진행되므로 하루 할 일을 끝내고 '실행중인 인스턴스' 가 있는지 확인하고 꺼야함
+
+---
+
+
+
+
+
+
+
+
+
+

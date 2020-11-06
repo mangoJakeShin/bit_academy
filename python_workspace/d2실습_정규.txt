@@ -1,0 +1,76 @@
+get_sub_name(char* sub_name) {
+	printf("과목 입력 : ");
+	gets(sub_name);
+}
+get_exm_cnt() {
+	int cnt;
+	printf("시험 횟수는? ");
+	scanf("%d", &cnt);
+	return cnt;
+}
+get_exm_rlt(float* exm_rlt, int a) {
+	int i;
+	for (i = 0;i < a;i++) {
+		printf("%d차 시험 점수 입력 :", i + 1);
+		scanf("%d", &exm_rlt[i]);
+	}
+}
+
+int get_total(int* exm_rlt, int a) {
+	int i=0;
+	int total = 0;
+	for (i = 0;i < a;i++) {
+		//printf("%d\n", exm_rlt[i]);
+		total += exm_rlt[i];
+	}
+	//printf("%d\n", total);
+	return total;
+}
+get_average(float a, float b) {
+	float avg;
+	avg = a / b;
+	
+	return avg;
+}
+get_grade(float a) {
+	if (a > 50)
+		return "pass";
+	else
+		return"??";
+}
+ print_result(char name, int count, float* result, int tot, float avg, char grd) {
+	int i;
+	printf("----------------");
+	printf("과목 이름 : %s", name);
+	for (i = 0; i < count;i++) {
+		printf("%d차 시험 점수 : %d\n", i, result[i]);
+	}
+	printf("총점 : %0.2f\n", tot);
+	printf("평균: %0.2f\n", avg);
+	puts(grd);
+}
+
+main()
+{
+	char sub_name[15]; /* 과목 이름 */
+	float exm_rlt[10]; /* 시험 점수 */
+	int exm_cnt = 0; /* 시험 회수 */
+	int total; /* 총점 */
+	float average; /* 평균 */
+	char grade; /* 학점 */
+
+	get_sub_name(sub_name); /* 과목 이름 */
+
+	exm_cnt = get_exm_cnt(); /* 시험 회수 */
+
+	get_exm_rlt(exm_rlt, exm_cnt);/* 시험 점수*/
+
+	total = get_total(exm_rlt, exm_cnt); /* 총점 계산 */
+
+	average = get_average(total, exm_cnt); /* 평균 계산 */
+
+	grade = get_grade(average); /* 학점을 계산합니다. */
+
+	print_result(sub_name, exm_cnt, exm_rlt,
+		total, average, grade); /* 모든 결과 */
+}

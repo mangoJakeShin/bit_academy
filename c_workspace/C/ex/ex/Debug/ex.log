@@ -1,0 +1,4 @@
+﻿  ex.c
+C:\Users\bit\Desktop\신정규\C\ex\ex\ex.c(6,14): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\bit\Desktop\신정규\C\ex\ex\ex.c(6,14): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+  ex.vcxproj -> C:\Users\bit\Desktop\신정규\C\ex\Debug\ex.exe

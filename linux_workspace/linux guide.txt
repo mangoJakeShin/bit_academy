@@ -1,0 +1,65 @@
+1. vmware.com 
+2. download
+- vmware player
+3. windows용 다운로드
+4. 저장 용량 확인 ( 50gb) 이상
+5. PATH + enhanced keyboard driver
+6. finish install
+
+--------------------
+7. ubuntu install
+8. vmware 실행 / iso 선택 ( memory -> 4gb / core -> 2 이상)
+9. 설치 완료
+10. terminal 접속 
+11. sudo apt update
+12. sudo apt upgrade
+
+-----------------------
+apache2 install / remove
+apapche? web server
+
+sudo apt install apache2 -> install 
+sudo service apache2 start
+
+sudo apt install net-tools -> ifconfig 등의 넷 도구들을 사용 가능하게 해줌
+
+ifconfig -> inet 나오는 ip주소 firefox 에서 입력 후 이상 없을 시 넷 연결 완료
+                    192.168.9.128:80
+
+default port no : 80
+
+/etc/apache2 ports.conf 
+Listen :80 -> current port
+수정 시 포트 변경 가능 
+수정 후 service stop - start / restart 해야 반영됨
+
+access log : /var/log/apache2 -> access.log
+
+*var/www/html : 우분투 계열 home directory 
+html.index에는 inet ip 접속시 나오는 것들이 저장되어 있음. 
+
+----
+file archive : zip file(압축파일)
+
+gzip filename : 압축
+gzip -d filename.gz : 압축 풀기
+
+bzip2 filename
+bzip2 -d filename.bz 
+--> bz는 gz로 압축을 풀 수 없고 vice versa.
+
+2개 이상의 파일을 압축할 때,
+
+bzip new_filename filename1 filename2 
+        새로운 파일 이름! 으로 해야한다.
+
+ftp server
+
+install vsftpd
+install telnetd
+install vsftpd
+
+ftp localhost -> user id, pw 
+
+-------------------
+colab home dir = content
