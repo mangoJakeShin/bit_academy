@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4a8326d-2119-47f5-ad2c-e75f8a64db5f" name="Default Changelist" comment="RGB">
-      <change afterPath="$PROJECT_DIR$/minis/baseball/baseball/baseball_ver4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minis/baseball/baseball/baseball_ver4.py" beforeDir="false" afterPath="$PROJECT_DIR$/minis/baseball/baseball/baseball_ver4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <recent name="C:\Users\bit\bit_academy\minis\baseball" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex">
+  <component name="RunManager" selected="Python.baseball_ver4">
     <configuration name="app2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bit_academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,6 +96,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="baseball_ver4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bit_academy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/minis/baseball/baseball" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minis/baseball/baseball/baseball_ver4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bit_academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,27 +130,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_workspace/code/ex/ex" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="printer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="bit_academy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/minis/baek" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minis/baek/printer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.baseball_ver4" />
         <item itemvalue="Python.ex" />
         <item itemvalue="Python.app2" />
         <item itemvalue="Python.baseball_ver3" />
         <item itemvalue="Python.printer2" />
-        <item itemvalue="Python.printer" />
       </list>
     </recent_temporary>
   </component>
@@ -248,22 +248,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="253" key="GridCell.Tab.-1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603420600085" />
-    <state width="1899" height="229" key="GridCell.Tab.0.bottom" timestamp="1604479870243">
+    <state width="1899" height="229" key="GridCell.Tab.0.bottom" timestamp="1604916511795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604479870243" />
-    <state width="1899" height="229" key="GridCell.Tab.0.center" timestamp="1604479870243">
+    <state width="1899" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604916511795" />
+    <state width="1899" height="229" key="GridCell.Tab.0.center" timestamp="1604916511795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="229" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604479870243" />
-    <state width="1899" height="229" key="GridCell.Tab.0.left" timestamp="1604479870243">
+    <state width="1899" height="229" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604916511795" />
+    <state width="1899" height="229" key="GridCell.Tab.0.left" timestamp="1604916511795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="229" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604479870243" />
-    <state width="1899" height="229" key="GridCell.Tab.0.right" timestamp="1604479870243">
+    <state width="1899" height="229" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604916511795" />
+    <state width="1899" height="229" key="GridCell.Tab.0.right" timestamp="1604916511795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="229" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604479870243" />
+    <state width="1899" height="229" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604916511795" />
     <state width="1899" height="253" key="GridCell.Tab.1.bottom" timestamp="1603772950761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
