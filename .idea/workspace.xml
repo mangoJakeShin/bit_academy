@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4a8326d-2119-47f5-ad2c-e75f8a64db5f" name="Default Changelist" comment="RGB">
+      <change afterPath="$PROJECT_DIR$/minis/baseball/baseball/baseball_ver4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,19 +37,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\bit\bit_academy\minis\baseball" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bit\bit_academy\minis" />
       <recent name="C:\Users\bit\bit_academy\minis\RGB" />
       <recent name="C:\Users\bit\bit_academy\Week7" />
       <recent name="C:\Users\bit\bit_academy\minis\baek" />
       <recent name="C:\Users\bit\bit_academy\Week7\day02" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bit\bit_academy\minis\baseball" />
     </key>
   </component>
   <component name="RunManager" selected="Python.ex">
