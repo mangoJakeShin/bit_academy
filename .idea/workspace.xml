@@ -11,10 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4a8326d-2119-47f5-ad2c-e75f8a64db5f" name="Default Changelist" comment="RGB">
-      <change beforePath="$PROJECT_DIR$/minis/RGB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/minis/RGB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minis/RGB/app2.py" beforeDir="false" afterPath="$PROJECT_DIR$/minis/RGB/app2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minis/RGB/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/minis/RGB/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minis/RGB/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/minis/RGB/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/minis/RGB" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1j81d1ZUVatebNi2tXejNLHg7BJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -39,8 +36,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/minis/baseball" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -285,10 +282,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604381893646" />
-    <state x="922" y="164" key="SettingsEditor" timestamp="1604030399685">
+    <state x="509" y="135" key="SettingsEditor" timestamp="1604880845469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="922" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604030399685" />
+    <state x="509" y="135" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604880845469" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604649914126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
