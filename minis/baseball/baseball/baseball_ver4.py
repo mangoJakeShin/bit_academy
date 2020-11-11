@@ -14,3 +14,4 @@ for ones in range(0,10):
                 print(threes,end="\t")
     print("")
 
+gi
