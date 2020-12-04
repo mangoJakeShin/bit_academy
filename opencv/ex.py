@@ -3,6 +3,7 @@ import cv2
 import os
 from matplotlib import pyplot as plt
 
+
 def actResize(src, choice):
     if choice == 1:
         size = (256, 256)
@@ -31,6 +32,7 @@ def actCrop(src, choice):
         if(y>20 and x > 20):
             dst = src[y//2:y, x//2:x]
         return dst
+
 
 
 def actSave(src):
