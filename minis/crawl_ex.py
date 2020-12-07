@@ -1,11 +1,16 @@
 import urllib.request
 from bs4 import BeautifulSoup
+import sys
+import numpy as np
 
 #웹페이지의 소스를 가져온다.
 url = "https://www.kr.playblackdesert.com/BeautyAlbum?searchType=0&searchText=&categoryCode=0&classType=0,4,8,12,16,20,21,24,25,26,28,31,27,19,23,11,29,17,5&Page=1"
 fp = urllib.request.urlopen(url)
-source = fp.read();
+source = fp.read()
 fp.close()
+
+a = float(sys.getsizeof(source)) / 1024
+
 
 #소스에서 img_area 클래스 하위의 소스를 가져온다.
 soup = BeautifulSoup(source, 'html.parser')
