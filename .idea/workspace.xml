@@ -12,8 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f4a8326d-2119-47f5-ad2c-e75f8a64db5f" name="Default Changelist" comment="RGB">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minis/crawl_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/minis/crawl_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minis/medCrawling.py" beforeDir="false" afterPath="$PROJECT_DIR$/minis/medCrawling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pyqt5" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
